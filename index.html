@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmEscape — Private Farmhouses & Villas</title>
+  <meta name="description" content="Discover private farmhouses, villas and countryside stays for your next getaway.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-white sticky-top border-bottom">
+  <div class="container py-2">
+    <a class="navbar-brand brand" href="index.html"><span class="brand-mark"><i class="bi bi-tree-fill"></i></span> Farm<span>Escape</span></a>
+    <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#nav"><i class="bi bi-list fs-2"></i></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav mx-auto gap-lg-3">
+        <li><a class="nav-link active" href="index.html">Explore</a></li>
+        <li><a class="nav-link" href="properties.html">Farmhouses</a></li>
+        <li><a class="nav-link" href="properties.html">Villas</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+      <div class="d-flex gap-2">
+        <a href="list-property.html" class="btn btn-outline-dark rounded-pill px-3">List your property</a>
+        <a href="login.html" class="btn btn-dark rounded-pill px-4">Sign in</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <div class="eyebrow">ESCAPE THE ORDINARY</div>
+    <h1>Find a stay worth<br><em>remembering.</em></h1>
+    <p>Private farmhouses, luxury villas and peaceful countryside stays for every kind of getaway.</p>
+    <form class="search-box" action="properties.html">
+      <div class="search-field"><i class="bi bi-geo-alt"></i><div><small>WHERE</small><input name="location" placeholder="Search a destination"></div></div>
+      <div class="search-field"><i class="bi bi-calendar3"></i><div><small>CHECK IN</small><input type="date"></div></div>
+      <div class="search-field"><i class="bi bi-calendar3"></i><div><small>CHECK OUT</small><input type="date"></div></div>
+      <div class="search-field"><i class="bi bi-people"></i><div><small>GUESTS</small><select><option>2 Guests</option><option>4 Guests</option><option>6 Guests</option><option>10+ Guests</option></select></div></div>
+      <button class="search-btn"><i class="bi bi-search"></i> Search</button>
+    </form>
+    <div class="hero-tags"><span><i class="bi bi-shield-check"></i> Verified stays</span><span><i class="bi bi-lightning-charge"></i> Instant enquiry</span><span><i class="bi bi-headset"></i> Guest support</span></div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><div><div class="eyebrow dark">EXPLORE NEARBY</div><h2>Popular destinations</h2></div><a href="properties.html" class="link-arrow">View all <i class="bi bi-arrow-right"></i></a></div>
+    <div class="row g-4">
+      <div class="col-6 col-md-4 col-lg-2"><a class="destination-card" href="properties.html?location=Lonavala"><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=600&q=80"><span>Lonavala<small>120+ stays</small></span></a></div>
+      <div class="col-6 col-md-4 col-lg-2"><a class="destination-card" href="properties.html?location=Alibaug"><img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=600&q=80"><span>Alibaug<small>80+ stays</small></span></a></div>
+      <div class="col-6 col-md-4 col-lg-2"><a class="destination-card" href="properties.html?location=Pune"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80"><span>Pune<small>95+ stays</small></span></a></div>
+      <div class="col-6 col-md-4 col-lg-2"><a class="destination-card" href="properties.html?location=Goa"><img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=600&q=80"><span>Goa<small>150+ stays</small></span></a></div>
+      <div class="col-6 col-md-4 col-lg-2"><a class="destination-card" href="properties.html?location=Nashik"><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=600&q=80"><span>Nashik<small>60+ stays</small></span></a></div>
+      <div class="col-6 col-md-4 col-lg-2"><a class="destination-card" href="properties.html?location=Karjat"><img src="https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=600&q=80"><span>Karjat<small>70+ stays</small></span></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="section-head"><div><div class="eyebrow dark">HANDPICKED FOR YOU</div><h2>Featured stays</h2><p class="muted">Beautiful spaces for weekends, celebrations and slow days.</p></div><a href="properties.html" class="link-arrow">Explore all <i class="bi bi-arrow-right"></i></a></div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4"><article class="property-card"><div class="property-img"><img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1000&q=85"><span class="badge-offer">15% OFF</span><button class="heart"><i class="bi bi-heart"></i></button></div><div class="property-body"><div class="d-flex justify-content-between"><span class="location">Lonavala, Maharashtra</span><span class="rating"><i class="bi bi-star-fill"></i> 4.9</span></div><h3>Green Valley Luxury Farm</h3><p>4 Bedrooms · 10 Guests · Private Pool</p><div class="price"><strong>₹12,500</strong> <small>/ night</small><a href="property-details.html">View stay <i class="bi bi-arrow-up-right"></i></a></div></div></article></div>
+      <div class="col-md-6 col-lg-4"><article class="property-card"><div class="property-img"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=85"><span class="badge-offer">10% OFF</span><button class="heart"><i class="bi bi-heart"></i></button></div><div class="property-body"><div class="d-flex justify-content-between"><span class="location">Alibaug, Maharashtra</span><span class="rating"><i class="bi bi-star-fill"></i> 4.8</span></div><h3>Casa Palm Private Villa</h3><p>3 Bedrooms · 8 Guests · Garden</p><div class="price"><strong>₹9,800</strong> <small>/ night</small><a href="property-details.html">View stay <i class="bi bi-arrow-up-right"></i></a></div></div></article></div>
+      <div class="col-md-6 col-lg-4"><article class="property-card"><div class="property-img"><img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1000&q=85"><span class="badge-offer">20% OFF</span><button class="heart"><i class="bi bi-heart"></i></button></div><div class="property-body"><div class="d-flex justify-content-between"><span class="location">Karjat, Maharashtra</span><span class="rating"><i class="bi bi-star-fill"></i> 4.9</span></div><h3>The Forest House</h3><p>5 Bedrooms · 14 Guests · Pool & BBQ</p><div class="price"><strong>₹16,500</strong> <small>/ night</small><a href="property-details.html">View stay <i class="bi bi-arrow-up-right"></i></a></div></div></article></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="promo">
+      <div><div class="eyebrow">FOR PROPERTY OWNERS</div><h2>Turn your property<br>into a destination.</h2><p>Reach guests looking for their next memorable escape. Listing is simple and transparent.</p><a href="list-property.html" class="btn btn-light rounded-pill px-4">List your property <i class="bi bi-arrow-right ms-2"></i></a></div>
+      <div class="promo-stats"><div><strong>5K+</strong><span>Happy guests</span></div><div><strong>1K+</strong><span>Verified stays</span></div><div><strong>4.8/5</strong><span>Average rating</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="text-center mb-5"><div class="eyebrow dark">WHY FARMEscape</div><h2>Made for better getaways</h2></div>
+    <div class="row g-4">
+      <div class="col-md-4"><div class="feature"><div class="feature-icon"><i class="bi bi-patch-check"></i></div><h3>Verified properties</h3><p>We focus on authentic, well-presented stays so you can book with confidence.</p></div></div>
+      <div class="col-md-4"><div class="feature"><div class="feature-icon"><i class="bi bi-wallet2"></i></div><h3>Transparent pricing</h3><p>See the nightly rate and key details upfront, without confusing surprises.</p></div></div>
+      <div class="col-md-4"><div class="feature"><div class="feature-icon"><i class="bi bi-chat-heart"></i></div><h3>Human support</h3><p>Questions before or after booking? Our support team is ready to help.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><div><div class="eyebrow dark">REAL STORIES</div><h2>Guests love the escape</h2></div></div>
+    <div class="row g-4">
+      <div class="col-md-4"><div class="review"><div class="stars">★★★★★</div><p>“The property looked beautiful online and was even better in person. Perfect for our family weekend.”</p><div class="reviewer"><span>AS</span><div><strong>Ananya S.</strong><small>Mumbai · stayed in Lonavala</small></div></div></div></div>
+      <div class="col-md-4"><div class="review"><div class="stars">★★★★★</div><p>“Loved the privacy, pool and location. Booking was straightforward and the host was wonderful.”</p><div class="reviewer"><span>RK</span><div><strong>Rahul K.</strong><small>Pune · stayed in Karjat</small></div></div></div></div>
+      <div class="col-md-4"><div class="review"><div class="stars">★★★★★</div><p>“Exactly the kind of peaceful villa we needed. Great space for a group and very clean.”</p><div class="reviewer"><span>MP</span><div><strong>Meera P.</strong><small>Thane · stayed in Alibaug</small></div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"><div class="container"><div class="row g-5"><div class="col-lg-4"><a class="brand text-white" href="#"><span class="brand-mark"><i class="bi bi-tree-fill"></i></span> Farm<span>Escape</span></a><p class="footer-copy">Private farmhouses, villas and countryside stays for meaningful escapes.</p></div><div class="col-6 col-lg-2"><h5>Explore</h5><a href="properties.html">Farmhouses</a><a href="properties.html">Villas</a><a href="properties.html">Destinations</a><a href="properties.html">Offers</a></div><div class="col-6 col-lg-2"><h5>Company</h5><a href="about.html">About us</a><a href="contact.html">Contact</a><a href="list-property.html">List property</a><a href="#">Careers</a></div><div class="col-lg-4"><h5>Stay in the loop</h5><p>Get fresh stays and weekend inspiration in your inbox.</p><form class="newsletter"><input type="email" placeholder="Your email address" required><button>Join</button></form></div></div><hr><div class="d-flex justify-content-between flex-wrap gap-2"><small>© 2026 FarmEscape. All rights reserved.</small><div class="socials"><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-whatsapp"></i></a></div></div></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="js/main.js"></script>
+</body></html>
